@@ -23,7 +23,6 @@ function ajax_get_fiberstar_data(select, id_kota=null, id_kecamatan=null, id_kel
 		});
 	});
 }
-
 function transection(dom1, dom2){
 	if (!dom1.val()){
 		for (var i = 4 - 1; i >= 0; i--) {
@@ -35,7 +34,6 @@ function transection(dom1, dom2){
 		dom2.closest('.quform-element-select').show();
 	}
 }
-
 $(document).ready(function(){
 	var select_kota = $('.fiberstar-form .fiberstar-form-kota');
 	var select_kecamatan = $('.fiberstar-form .fiberstar-form-kecamatan');
