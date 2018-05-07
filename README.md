@@ -1,7 +1,7 @@
 # wp-api-fiberstar
-[fiberstar_converage] ..form content..  [/fiberstar_converage]
 
-use Qform
+
+create form use Quform
 add class input:
 <ul>
   <li>kota: fiberstar-form-kota</li>  
@@ -9,3 +9,6 @@ add class input:
   <li>Kelurahan: fiberstar-form-kelurahan</li>  
   <li>Jalan: fiberstar-form-jalan</li>
 </ul>
+
+[fiberstar_converage] [ .. quform sortcode .. ] [/fiberstar_converage]
+include this in page.
